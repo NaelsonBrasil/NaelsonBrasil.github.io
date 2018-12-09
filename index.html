@@ -1,22 +1,284 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="pt-br">
+<head>
+    <!-- Author vipcriativo.digital@gmail.com all right reserved-->
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no, shrink-to-fit=no ">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">-->
 
-    <title>Vipcriativo</title>
-  </head>
-  <body>
-    <h1>Project in developerment. Soon more info!</h1>
+    <!-- Bootstrap CSS v4.1 -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <link rel="stylesheet" href="css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="app/sass/style.css">
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon"/>
+    <title>Vipcriativo</title></head>
+<body>
+<!--<div class="bg-top-fist"></div>-->
+<!--<div class="bg-top-secondary"></div>-->
+
+<div class="container-fluid">
+
+
+    <div class="row">
+        <div class="col-md-3 text-center" id="column-left">
+            <br>
+            <img src="image/logo.png" class="text-center" style="margin: auto">
+
+            <span style=""><i class="fas icon-hide-show fa-angle-left" id="click"></i></span>
+
+            <ul class="ul-menu">
+                <li class="li-menu"><a href="#">Home</a></li>
+                <li class="separator1"></li>
+                <li class="separator2"></li>
+                <li class="li-menu"><a href="#">Sobre</a></li>
+                <li class="separator1"></li>
+                <li class="separator2"></li>
+                <li class="li-menu"><a href="#">Portfolio</a></li>
+            </ul>
+
+            <!--Title Language-->
+            <div class="language-title">
+                Linguagens Utilitárias
+            </div>
+
+            <div class="text-center language-dev">
+                <ul class="ul-menu-lan-icon-list">
+                    <li><i class="fab fa-css3-alt"></i></li>
+                    <li><i class="fab fa-js"></i></li>
+                    <li><i class="fab fa-html5"></i></li>
+                </ul>
+                <ul class="ul-menu-lan-icon-list">
+                    <li><i class="fab fa-php"></i></li>
+                    <li><i class="fab fa-sass"></i></li>
+                </ul>
+            </div>
+
+            <!--Title Framework-->
+            <div class="framework-title">
+                Framework Utilitárias
+            </div>
+
+            <div class="text-center framework-dev">
+                <ul class="ul-menu-framework-icon-list">
+                    <li><i class="fab fa-laravel"></i></li>
+                    <li><img src="image/icon-bt.png" class="icon-img"></li>
+                    <li><i class="fab fa-wordpress"></i></li>
+
+                </ul>
+            </div>
+
+
+            <!--Title Midia-->
+            <div class="midia-title">
+                Midia Sociais
+            </div>
+
+            <div class="text-center midia-social">
+                <ul class="ul-menu-midia-icon-list">
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-whatsapp"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                </ul>
+            </div>
+
+
+            <p id="term"><a href="#" class="text-dark">Termos de Serviço</a></p>
+            <p id="politic"><a href="#" class="text-dark">Políticas de Utilização</a></p>
+            <h6 class="all-right text-dark">All right reserved for Vipcriativo.com</h6>
+
+        </div>
+
+
+        <div class="col-md-9" id="content">
+
+
+            <div class="bg-top-fist">
+                <ol class="contact">
+                    <li id="contact-email"><i class="far fa-envelope "></i> Contato@vipstudio.com</li>
+                    <li id="contact-phone"><i class="fas fa-phone-square"></i> (65)-992358608</li>
+                </ol>
+
+                <ul class="ul-service">
+                    <li class="li-service" id="sup"><i class="fas icon-sup fa-toolbox"></i><a href="#">Suporte</a></li>
+                    <li class="li-service" id="or"><i class="fas icon-or fa-hand-holding-usd"></i><a
+                            href="#">Orçamento</a></li>
+                </ul>
+            </div>
+
+
+            <div class="bg-top-secondary">
+                <ul class="ul-top-option">
+                    <li class="li-top-option"><a href="#">Sistemas</a></li>
+                    <li class="sp-btn-option1"></li>
+                    <li class="sp-btn-option2"></li>
+                    <li class="li-top-option"><a href="#">Aplicação Mobile</a></li>
+                    <li class="sp-btn-option1"></li>
+                    <li class="sp-btn-option2"></li>
+                    <li class="li-top-option"><a href="#">SEO</a></li>
+                    <li class="sp-btn-option1"></li>
+                    <li class="sp-btn-option2"></li>
+                    <li class="li-top-option"><a href="#">Lineage2</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="slider">
+
+                <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0"
+                            class="carousel-selection active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="carousel-selection"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="carousel-selection"></li>
+                    </ol>
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="image/slider/slider-img1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="image/slider/slider-img1.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="image/slider/slider-img1.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="info">
+                <div class="table-service">
+
+                    <ol class="list-group m-0">
+                        <li class="list-group-item active bg-service text-center">SUMÁRIO DE SERVIÇOS</li>
+                        <li class="card-header"> SEO Otimizando</li>
+                        <li class="card-header"> Desenvolvimento de Lojas Virtuais</li>
+                        <li class="card-header"> WEB Institucional</li>
+
+                        <li class="card-header">
+                            <div class="accordion" id="accordionExample">
+                                <div>
+
+                                    <a href="#" role="button" data-toggle="collapse" data-target="#collapseOne"
+                                       aria-expanded="true" aria-controls="collapseOne">
+                                        Integrações
+                                    </a>
+
+
+                                    <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne"
+                                         data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <ul>
+                                                <li>Pagseguro</li>
+                                                <li>Correios</li>
+                                                <li>Paypal</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="card-header"> Painel Administrativo</li>
+                        <li class="card-header"> Correções Bugs ou Implementações</li>
+                    </ol>
+                </div>
+
+
+            </div>
+
+
+            <div class="all-right-reserved">
+                <marquee class="text-secondary">Sempre inovando e trazendo o que a de novo no mercado para nossos
+                    clientes!
+                </marquee>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+<script>
+    // document.body.addEventListener("wheel", e => {
+    //     if (e.ctrlKey)
+    //         event.preventDefault();//prevent zoom
+    // }
+
+    $(function () {
+        let num = 0;
+        $('#click').click(function () {
+
+            num = num + 1;
+
+            if (num === 1) {
+                $('#click').addClass('fas fa-angle-right');
+                $('.ul-menu-lan-icon-list li').css('padding', '2px');
+                $('.ul-menu-framework-icon-list li').css('padding', '2px');
+                $('.ul-menu-midia-icon-list li').css('padding', '0');
+
+
+                $('#column-left').removeClass('col-md-3');
+                $('#column-left').addClass('col-md-2');
+                $('#content').addClass('col-md-10');
+            }
+            if (num === 2) {
+                num = 0;
+                $('#click').removeClass('fas fa-angle-right');
+                $('#click').addClass('fas fa-angle-left');
+                $('.ul-menu-lan-icon-list li').css('padding', '10px');
+                $('.ul-menu-framework-icon-list li').css('padding', '10px');
+                $('.ul-menu-midia-icon-list li').css('padding', '2px');
+
+                $('#content').removeClass('col-md-10');
+                $('#content').addClass('col-md-9');
+
+                $('#column-left').removeClass('col-md-2');
+                $('#column-left').addClass('col-md-3');
+
+            }
+
+
+        });
+
+
+    });
+
+
+</script>
+</body>
 </html>
