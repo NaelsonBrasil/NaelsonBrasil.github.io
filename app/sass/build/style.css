@@ -1,107 +1,54 @@
-//sass style.scss build/style.css
-$font-stack: Helvetica, sans-serif;
-
-$body-color: #f4f4f4;
-$column-left-color: #f4f4f4;
-
-//$var-color-bg-top-primary: #1d6ac0;
-//$var-color-bg-top-secondary: #169EE6;
-$var-color-bg-top-primary: #73ce42;
-$var-color-bg-top-secondary: #73ce42;
-
-$var-left1-menu: #73ce42;
-$var-left2-menu: #73ce42;
-$var-column-left: #73ce42;
-$var-menu-top: #8fd46a;
-$btn1-top-fist: #c63636;
-$btn2-top-fist: #387dd0;
-$service: #353535;
-
-@mixin input-custom($radius,$color) {
-  border-bottom-left-radius: $radius;
-  color: $color !important;
-
+body {
+  background-color: #f4f4f4;
 }
 
-@mixin menu-responsive($nHeight) {
-  height: $nHeight;
-
-}
-
-%ext-properties-default-body {
-  background-color: $body-color;
-
-}
-
-%ext-bg-top-primary {
-  background-color: $var-color-bg-top-primary;
+.bg-top-fist {
+  background-color: #73ce42;
   width: 100%;
   height: 60px;
-
 }
 
-%ext-bg-top-secondary {
-  background-color: $var-color-bg-top-secondary;
+.bg-top-secondary {
+  background-color: #73ce42;
   width: 100%;
   height: 70px;
   margin-top: -20px;
-
 }
 
-%ext-content {
+#content {
   padding-right: 0 !important;
   padding-left: 0 !important;
-
-  background-color: $body-color;
+  background-color: #f4f4f4;
 }
 
-%ext-column-left {
+div div#column-left {
   width: 100%;
-  @include menu-responsive(1100px);
-  border-right: solid 15px $var-column-left;
+  height: 1100px;
+  border-right: solid 15px #73ce42;
   padding-right: 0;
   padding-left: 0 !important;
-
 }
 
-%ext-li-menu {
-  background-image: linear-gradient(to right, $var-left1-menu, $var-left2-menu);
+.li-menu {
+  background-image: linear-gradient(to right, #73ce42, #73ce42);
   width: 100%;
   margin-right: 100px !important;
   list-style: none;
   height: 32px;
-
 }
 
 /* css*/
 body {
-  font: 100% $font-stack;
-  @extend %ext-properties-default-body;
+  font: 100% Helvetica, sans-serif;
 }
 
 h1 {
-  @include input-custom(10px, green);
-
-}
-
-.bg-top-fist {
-  @extend %ext-bg-top-primary;
-
-}
-
-.bg-top-secondary {
-  @extend %ext-bg-top-secondary;
-
+  border-bottom-left-radius: 10px;
+  color: green !important;
 }
 
 div div#column-left {
-  background-color: $column-left-color;
-  @extend %ext-column-left;
-}
-
-#content {
-  @extend %ext-content;
-
+  background-color: #f4f4f4;
 }
 
 span .icon-hide-show {
@@ -110,23 +57,16 @@ span .icon-hide-show {
   font-size: 30px;
   color: white;
   margin-top: 137px;
-
 }
 
 span .icon-hide-show:hover {
   cursor: pointer;
-
 }
 
 .ul-menu {
   padding-left: 0;
   padding-right: 0;
   margin-top: 10px;
-}
-
-.li-menu {
-  @extend %ext-li-menu;
-
 }
 
 .li-menu a {
@@ -137,7 +77,7 @@ span .icon-hide-show:hover {
 }
 
 .li-menu:hover {
-  background-image: linear-gradient(to right, $var-left1-menu, $var-left2-menu);
+  background-image: linear-gradient(to right, #73ce42, #73ce42);
 }
 
 .separator1 {
@@ -155,22 +95,17 @@ span .icon-hide-show:hover {
 }
 
 @media (min-width: 767px) and (max-width: 1127px) {
-
   .ul-menu-midia-icon-list li {
     padding: 2px !important;
   }
-
 }
-
 @media (min-width: 767px) and (max-width: 1007px) {
-
   .ul-top-option .li-top-option {
     width: 24.5% !important;
   }
 
   .ul-menu-lan-icon-list li {
     padding: 10px !important;
-
   }
 
   .ul-menu-framework-icon-list li {
@@ -180,31 +115,32 @@ span .icon-hide-show:hover {
   .ul-menu-midia-icon-list li {
     padding: 2px !important;
   }
+
   .all-right {
     display: none;
   }
 }
-
 @media (min-width: 266px) and (max-width: 767px) {
   div div#column-left {
-    @include menu-responsive(300px);
+    height: 300px;
     border-right: 0;
   }
+
   .icon-hide-show {
     display: none;
   }
 
   .contact li {
-    font-size:  1vw !important;
+    font-size: 1vw !important;
   }
 
   /*Bug canto*/
   .ul-top-option .li-top-option {
     width: 24.5% !important;
   }
+
   .ul-top-option .li-top-option a {
     font-size: 14px !important;
-
   }
 
   .li-service a {
@@ -212,46 +148,48 @@ span .icon-hide-show:hover {
   }
 
   .language-title {
-    display: none
+    display: none;
   }
+
   .language-dev {
-    display: none
+    display: none;
   }
+
   .framework-title {
-    display: none
+    display: none;
   }
+
   .framework-dev {
-    display: none
+    display: none;
   }
+
   .midia-title {
-    display: none
+    display: none;
   }
+
   .midia-social {
-    display: none
+    display: none;
   }
 
   #term {
     display: none;
   }
+
   #politic {
     display: none;
   }
 
   .bg-top-fist {
     margin-top: -60px;
-
   }
-
 }
-
 .language-title {
   height: 40px;
   width: 100%;
-  background-image: linear-gradient(to right, $var-left1-menu, $var-left2-menu);
+  background-image: linear-gradient(to right, #73ce42, #73ce42);
   margin-top: 60px;
   line-height: 40px;
   color: white;
-
 }
 
 .language-dev {
@@ -261,7 +199,6 @@ span .icon-hide-show:hover {
   border: solid 1px #e3e3e3;
   margin: 5px auto;
   border-radius: 3px;
-
 }
 
 .ul-menu-lan-icon-list {
@@ -272,23 +209,20 @@ span .icon-hide-show:hover {
 .ul-menu-lan-icon-list li {
   display: inline-block;
   padding: 20px;
-
 }
 
 .ul-menu-lan-icon-list li i {
   font-size: 32px;
   color: #4c4c4c;
-
 }
 
 .framework-title {
   height: 40px;
   width: 100%;
-  background-image: linear-gradient(to right, $var-left1-menu, $var-left2-menu);
+  background-image: linear-gradient(to right, #73ce42, #73ce42);
   margin-top: 20px;
   line-height: 40px;
   color: white;
-
 }
 
 .framework-dev {
@@ -298,7 +232,6 @@ span .icon-hide-show:hover {
   border: solid 1px #e3e3e3;
   margin: 5px auto;
   border-radius: 3px;
-
 }
 
 .ul-menu-framework-icon-list {
@@ -309,30 +242,26 @@ span .icon-hide-show:hover {
 .ul-menu-framework-icon-list li {
   display: inline-block;
   padding: 20px;
-
 }
 
 .ul-menu-framework-icon-list li i {
   font-size: 32px;
   color: #4c4c4c;
-
 }
 
 .icon-img {
   color: #4c4c4c;
   padding: 0;
   margin-top: -13px;
-
 }
 
 .midia-title {
   height: 40px;
   width: 100%;
-  background-image: linear-gradient(to right, $var-left1-menu, $var-left2-menu);
+  background-image: linear-gradient(to right, #73ce42, #73ce42);
   margin-top: 20px;
   line-height: 40px;
   color: white;
-
 }
 
 .midia-social {
@@ -342,7 +271,6 @@ span .icon-hide-show:hover {
   border: solid 1px #e3e3e3;
   margin: 5px auto;
   border-radius: 3px;
-
 }
 
 .ul-menu-midia-icon-list {
@@ -353,29 +281,24 @@ span .icon-hide-show:hover {
 .ul-menu-midia-icon-list li {
   display: inline-block;
   padding: 20px;
-
 }
 
 .ul-menu-midia-icon-list li i {
   font-size: 32px;
   color: #4c4c4c;
-
 }
 
 #term a {
   text-decoration: none;
   position: relative;
-
 }
 
 #term a:hover {
   border-bottom: solid 1px #1D6AC0;
-
 }
 
 #politic a {
   text-decoration: none;
-
 }
 
 #politic a:hover {
@@ -383,12 +306,9 @@ span .icon-hide-show:hover {
 }
 
 /*Option top Menus*/
-
 .ul-service {
   padding: 0 0 0 0;
-
   margin: 0 0 0 -10px;
-
 }
 
 .li-service {
@@ -398,33 +318,29 @@ span .icon-hide-show:hover {
   line-height: 70px;
   text-align: center;
   float: right;
-
 }
 
 .li-service a {
   color: white;
   text-decoration: none;
   font-size: 14px;
-
 }
 
 #or {
-  background-color: $btn1-top-fist;
-
+  background-color: #c63636;
 }
 
 #sup {
-  background-color: $btn2-top-fist;
-
+  background-color: #387dd0;
 }
 
 #or:hover {
-  background-color: $btn1-top-fist;
+  background-color: #c63636;
   opacity: 0.9;
 }
 
 #sup:hover {
-  background-color: $btn2-top-fist;
+  background-color: #387dd0;
   opacity: 0.9;
 }
 
@@ -432,7 +348,6 @@ span .icon-hide-show:hover {
   margin-right: 5px;
   font-size: 32px;
   color: white;
-
 }
 
 .icon-sup {
@@ -450,34 +365,28 @@ span .icon-hide-show:hover {
 .ul-top-option {
   padding-left: 0;
   padding-right: 0;
-
 }
 
 .ul-top-option .li-top-option {
   display: inline-block;
-  background-color: $var-menu-top;
+  background-color: #8fd46a;
   height: 0.1px;
   width: 24.8%;
   line-height: 70px;
   text-align: center;
   float: left;
-
 }
 
 .ul-top-option .li-top-option:hover {
-  background-color: $var-menu-top;
+  background-color: #8fd46a;
   height: 70px;
   transition: 0.3s;
-
 }
 
 .ul-top-option .li-top-option a {
   text-decoration: none;
   color: white;
-
-
 }
-
 
 .sp-btn-option1 {
   border-right: solid 1px #a6a0a0;
@@ -493,7 +402,6 @@ span .icon-hide-show:hover {
   width: 1px;
   list-style: none;
   float: left;
-
 }
 
 /* Content*/
@@ -525,7 +433,6 @@ span .icon-hide-show:hover {
   display: flex;
   flex-direction: row;
   padding: 0 0 0 0;
-
 }
 
 .table-service {
@@ -536,19 +443,21 @@ span .icon-hide-show:hover {
   margin: 1px;
 }
 
-.bg-service{
-  background-color: $service !important;
+.bg-service {
+  background-color: #353535 !important;
   border: 0;
 }
-.contact{
+
+.contact {
   margin: 10px 0 0;
   padding: 0;
   display: block;
   list-style: none;
-
 }
 
-.contact{
+.contact {
   float: left;
   color: white;
 }
+
+/*# sourceMappingURL=style.css.map */
