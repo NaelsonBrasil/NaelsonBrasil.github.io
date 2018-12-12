@@ -11,7 +11,7 @@ body {
 .bg-top-secondary {
   background-color: #73ce42;
   width: 100%;
-  height: 70px;
+  height: 35px;
   margin-top: -20px;
 }
 
@@ -23,7 +23,7 @@ body {
 
 div div#column-left {
   width: 100%;
-  height: 1100px;
+  height: 100%;
   border-right: solid 15px #73ce42;
   padding-right: 0;
   padding-left: 0 !important;
@@ -372,14 +372,14 @@ span .icon-hide-show:hover {
   background-color: #8fd46a;
   height: 0.1px;
   width: 24.8%;
-  line-height: 70px;
+  line-height: 35px;
   text-align: center;
   float: left;
 }
 
 .ul-top-option .li-top-option:hover {
   background-color: #8fd46a;
-  height: 70px;
+  height: 35px;
   transition: 0.3s;
 }
 
@@ -390,7 +390,7 @@ span .icon-hide-show:hover {
 
 .sp-btn-option1 {
   border-right: solid 1px #a6a0a0;
-  height: 70px;
+  height: 35px;
   width: 1px;
   list-style: none;
   float: left;
@@ -398,7 +398,7 @@ span .icon-hide-show:hover {
 
 .sp-btn-option2 {
   border-right: solid 1px #d2d2d2;
-  height: 70px;
+  height: 35px;
   width: 1px;
   list-style: none;
   float: left;

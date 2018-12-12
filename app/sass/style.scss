@@ -6,7 +6,7 @@ $column-left-color: #f4f4f4;
 
 //$var-color-bg-top-primary: #1d6ac0;
 //$var-color-bg-top-secondary: #169EE6;
-$var-color-bg-top-primary: #73ce42;
+$var-color-bg-top-primary:  #73ce42;
 $var-color-bg-top-secondary: #73ce42;
 
 $var-left1-menu: #73ce42;
@@ -43,7 +43,7 @@ $service: #353535;
 %ext-bg-top-secondary {
   background-color: $var-color-bg-top-secondary;
   width: 100%;
-  height: 70px;
+  height: 35px;
   margin-top: -20px;
 
 }
@@ -57,7 +57,7 @@ $service: #353535;
 
 %ext-column-left {
   width: 100%;
-  @include menu-responsive(1100px);
+  @include menu-responsive(100%);
   border-right: solid 15px $var-column-left;
   padding-right: 0;
   padding-left: 0 !important;
@@ -122,6 +122,7 @@ span .icon-hide-show:hover {
   padding-left: 0;
   padding-right: 0;
   margin-top: 10px;
+
 }
 
 .li-menu {
@@ -134,10 +135,12 @@ span .icon-hide-show:hover {
   line-height: 32px;
   text-decoration: none;
   font-family: Arial, sans-serif;
+
 }
 
 .li-menu:hover {
   background-image: linear-gradient(to right, $var-left1-menu, $var-left2-menu);
+
 }
 
 .separator1 {
@@ -145,6 +148,7 @@ span .icon-hide-show:hover {
   height: 1px;
   width: 100%;
   list-style: none;
+
 }
 
 .separator2 {
@@ -152,6 +156,7 @@ span .icon-hide-show:hover {
   height: 1px;
   width: 100%;
   list-style: none;
+
 }
 
 @media (min-width: 767px) and (max-width: 1127px) {
@@ -458,7 +463,7 @@ span .icon-hide-show:hover {
   background-color: $var-menu-top;
   height: 0.1px;
   width: 24.8%;
-  line-height: 70px;
+  line-height: 35px;
   text-align: center;
   float: left;
 
@@ -466,7 +471,7 @@ span .icon-hide-show:hover {
 
 .ul-top-option .li-top-option:hover {
   background-color: $var-menu-top;
-  height: 70px;
+  height: 35px;
   transition: 0.3s;
 
 }
@@ -481,7 +486,7 @@ span .icon-hide-show:hover {
 
 .sp-btn-option1 {
   border-right: solid 1px #a6a0a0;
-  height: 70px;
+  height: 35px;
   width: 1px;
   list-style: none;
   float: left;
@@ -489,7 +494,7 @@ span .icon-hide-show:hover {
 
 .sp-btn-option2 {
   border-right: solid 1px #d2d2d2;
-  height: 70px;
+  height: 35px;
   width: 1px;
   list-style: none;
   float: left;
