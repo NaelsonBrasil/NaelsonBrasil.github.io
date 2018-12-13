@@ -13,8 +13,8 @@ $var-left1-menu: rgb(7, 161, 7);
 $var-left2-menu: rgb(7, 161, 7);
 $var-column-left: rgb(7, 161, 7);
 $var-menu-top: #353535;
-$btn1-top-fist: rgb(163, 158, 56);
-$btn2-top-fist: rgb(52, 129, 192);
+$btn1-top-fist: #353535;
+$btn2-top-fist: #353535;
 $service: #353535;
 
 @mixin input-custom($radius,$color) {
@@ -512,7 +512,7 @@ span .icon-hide-show:hover {
 
 .slider {
   width: 65% !important;
-  height: 300px;
+
   margin: 20px auto;
   border: solid #eeeeee 3px;
   border-radius: 3px;
@@ -557,13 +557,4 @@ span .icon-hide-show:hover {
 .contact{
   float: left;
   color: white;
-}
-
-.about > article > h3{
-  font-size: 18px;
-}
-
-.about > article > p{
-  font-size: 14px;
-  font-family: sans-serif;
 }

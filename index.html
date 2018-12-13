@@ -68,7 +68,7 @@
                     <li class="li-menu"><a href="https://vipcriativo.com/">Home</a></li>
                     <li class="separator1"></li>
                     <li class="separator2"></li>
-                    <li class="li-menu"><a href="#main" id="about">Sobre</a></li>
+                    <li class="li-menu"><a href="#" id="about">Sobre</a></li>
                     <li class="separator1"></li>
                     <li class="separator2"></li>
                     <li class="li-menu"><a href="https://www.behance.net/vipcriativo">Portfolio</a></li>
@@ -146,13 +146,13 @@
 
                 <div class="bg-top-secondary">
                     <ul class="ul-top-option">
-                        <li class="li-top-option"><a href="#">Sistemas</a></li>
+                        <li class="li-top-option"><a href="#" id="service">Services</a></li>
                         <li class="sp-btn-option1"></li>
                         <li class="sp-btn-option2"></li>
                         <li class="li-top-option"><a href="#">Aplicação Mobile</a></li>
                         <li class="sp-btn-option1"></li>
                         <li class="sp-btn-option2"></li>
-                        <li class="li-top-option"><a href="#">Otimização Técnico</a></li>
+                        <li class="li-top-option"><a href="#" id="otimize">Otimização Técnico</a></li>
                         <li class="sp-btn-option1"></li>
                         <li class="sp-btn-option2"></li>
                         <li class="li-top-option"><a href="#">Lineage2</a></li>
@@ -173,13 +173,13 @@
                             </ol>
                             <div class="carousel-inner ">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="image/slider/slider-img1.png" alt="First slide">
+                                    <img class="d-block w-100 img-fluid" src="image/slider/slider-img1.png" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="image/slider/slider-img1.png" alt="Second slide">
+                                    <img class="d-block w-100 img-fluid" src="image/slider/slider-img1.png" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="image/slider/slider-img1.png" alt="Third slide">
+                                    <img class="d-block w-100 img-fluid" src="image/slider/slider-img1.png" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -305,6 +305,15 @@
 
             $('#about').click(function () {
                 $('#main').load('about.html article');
+            });
+
+            $('#service').click(function () {
+                $('#main').load('service.html article');
+            });
+
+
+            $('#otimize').click(function () {
+                $('#main').load('otimize.html article');
             });
 
         });

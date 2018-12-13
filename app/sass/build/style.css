@@ -415,7 +415,6 @@ span .icon-hide-show:hover {
 
 .slider {
   width: 65% !important;
-  height: 300px;
   margin: 20px auto;
   border: solid #eeeeee 3px;
   border-radius: 3px;
@@ -462,11 +461,11 @@ span .icon-hide-show:hover {
 }
 
 .about > article > h3 {
-  font-size: 18px;
+  font-size: 10px;
 }
 
 .about > article > p {
-  font-size: 14px;
+  font-size: 6px;
   font-family: sans-serif;
 }
 
