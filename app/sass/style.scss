@@ -6,15 +6,15 @@ $column-left-color: #f4f4f4;
 
 //$var-color-bg-top-primary: #1d6ac0;
 //$var-color-bg-top-secondary: #169EE6;
-$var-color-bg-top-primary:  rgb(7, 161, 7);
-$var-color-bg-top-secondary: rgb(7, 161, 7);
+$var-color-bg-top-primary:  #73CE42;
+$var-color-bg-top-secondary: #73CE42;
 
-$var-left1-menu: rgb(7, 161, 7);
-$var-left2-menu: rgb(7, 161, 7);
-$var-column-left: rgb(7, 161, 7);
+$var-left1-menu: #73CE42;
+$var-left2-menu: #73CE42;
+$var-column-left: #73CE42;
 $var-menu-top: #353535;
-$btn1-top-fist: #353535;
-$btn2-top-fist: #353535;
+$btn1-top-fist: #73CE42;
+$btn2-top-fist:#73CE42;
 $service: #353535;
 
 @mixin input-custom($radius,$color) {
@@ -200,7 +200,7 @@ span .icon-hide-show:hover {
   }
 
   .contact li {
-    font-size:  1vw !important;
+    font-size:  12px !important;
   }
 
   /*Bug canto*/
@@ -425,12 +425,12 @@ span .icon-hide-show:hover {
 
 #or:hover {
   background-color: $btn1-top-fist;
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
 #sup:hover {
   background-color: $btn2-top-fist;
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
 .icon-or {
