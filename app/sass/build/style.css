@@ -3,13 +3,13 @@ body {
 }
 
 .bg-top-fist {
-  background-color: #73ce42;
+  background-color: #07a107;
   width: 100%;
   height: 60px;
 }
 
 .bg-top-secondary {
-  background-color: #73ce42;
+  background-color: #07a107;
   width: 100%;
   height: 35px;
   margin-top: -20px;
@@ -24,13 +24,13 @@ body {
 div div#column-left {
   width: 100%;
   height: 100%;
-  border-right: solid 15px #73ce42;
+  border-right: solid 15px #07a107;
   padding-right: 0;
   padding-left: 0 !important;
 }
 
 .li-menu {
-  background-image: linear-gradient(to right, #73ce42, #73ce42);
+  background-image: linear-gradient(to right, #07a107, #07a107);
   width: 100%;
   margin-right: 100px !important;
   list-style: none;
@@ -77,7 +77,7 @@ span .icon-hide-show:hover {
 }
 
 .li-menu:hover {
-  background-image: linear-gradient(to right, #73ce42, #73ce42);
+  background-image: linear-gradient(to right, #07a107, #07a107);
 }
 
 .separator1 {
@@ -186,7 +186,7 @@ span .icon-hide-show:hover {
 .language-title {
   height: 40px;
   width: 100%;
-  background-image: linear-gradient(to right, #73ce42, #73ce42);
+  background-image: linear-gradient(to right, #07a107, #07a107);
   margin-top: 60px;
   line-height: 40px;
   color: white;
@@ -219,7 +219,7 @@ span .icon-hide-show:hover {
 .framework-title {
   height: 40px;
   width: 100%;
-  background-image: linear-gradient(to right, #73ce42, #73ce42);
+  background-image: linear-gradient(to right, #07a107, #07a107);
   margin-top: 20px;
   line-height: 40px;
   color: white;
@@ -258,7 +258,7 @@ span .icon-hide-show:hover {
 .midia-title {
   height: 40px;
   width: 100%;
-  background-image: linear-gradient(to right, #73ce42, #73ce42);
+  background-image: linear-gradient(to right, #07a107, #07a107);
   margin-top: 20px;
   line-height: 40px;
   color: white;
@@ -327,20 +327,20 @@ span .icon-hide-show:hover {
 }
 
 #or {
-  background-color: #c63636;
+  background-color: #a39e38;
 }
 
 #sup {
-  background-color: #387dd0;
+  background-color: #3481c0;
 }
 
 #or:hover {
-  background-color: #c63636;
+  background-color: #a39e38;
   opacity: 0.9;
 }
 
 #sup:hover {
-  background-color: #387dd0;
+  background-color: #3481c0;
   opacity: 0.9;
 }
 
@@ -369,7 +369,7 @@ span .icon-hide-show:hover {
 
 .ul-top-option .li-top-option {
   display: inline-block;
-  background-color: #8fd46a;
+  background-color: #353535;
   height: 0.1px;
   width: 24.8%;
   line-height: 35px;
@@ -378,7 +378,7 @@ span .icon-hide-show:hover {
 }
 
 .ul-top-option .li-top-option:hover {
-  background-color: #8fd46a;
+  background-color: #353535;
   height: 35px;
   transition: 0.3s;
 }

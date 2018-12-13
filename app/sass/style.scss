@@ -6,15 +6,15 @@ $column-left-color: #f4f4f4;
 
 //$var-color-bg-top-primary: #1d6ac0;
 //$var-color-bg-top-secondary: #169EE6;
-$var-color-bg-top-primary:  #73ce42;
-$var-color-bg-top-secondary: #73ce42;
+$var-color-bg-top-primary:  rgb(7, 161, 7);
+$var-color-bg-top-secondary: rgb(7, 161, 7);
 
-$var-left1-menu: #73ce42;
-$var-left2-menu: #73ce42;
-$var-column-left: #73ce42;
-$var-menu-top: #8fd46a;
-$btn1-top-fist: #c63636;
-$btn2-top-fist: #387dd0;
+$var-left1-menu: rgb(7, 161, 7);
+$var-left2-menu: rgb(7, 161, 7);
+$var-column-left: rgb(7, 161, 7);
+$var-menu-top: #353535;
+$btn1-top-fist: rgb(163, 158, 56);
+$btn2-top-fist: rgb(52, 129, 192);
 $service: #353535;
 
 @mixin input-custom($radius,$color) {
