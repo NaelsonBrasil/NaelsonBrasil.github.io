@@ -414,7 +414,8 @@ span .icon-hide-show:hover {
 }
 
 .slider {
-  width: 90% !important;
+  width: 65% !important;
+  height: 300px;
   margin: 20px auto;
   border: solid #eeeeee 3px;
   border-radius: 3px;
@@ -458,6 +459,15 @@ span .icon-hide-show:hover {
 .contact {
   float: left;
   color: white;
+}
+
+.about > article > h3 {
+  font-size: 18px;
+}
+
+.about > article > p {
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
