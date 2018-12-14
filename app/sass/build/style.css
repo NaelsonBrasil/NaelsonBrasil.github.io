@@ -182,7 +182,39 @@ span .icon-hide-show:hover {
   .bg-top-fist {
     margin-top: -60px;
   }
+
+  #menu > div > ul li:hover {
+    border-right: 3px solid #F4F4F4;
+    background: #353535;
+  }
+
+  #menu:hover div {
+    text-align: center;
+    width: 24.8%;
+    height: 130px;
+    background-color: #1514149d;
+    position: absolute;
+    z-index: 999;
+  }
+
+  #menu {
+    display: inline !important;
+  }
 }
+#menu {
+  display: none;
+}
+
+#menu i {
+  color: white;
+}
+
+#menu > div > ul {
+  margin: 0 0 0;
+  padding: 0 0 0;
+  list-style: none;
+}
+
 .language-title {
   height: 40px;
   width: 100%;
@@ -314,7 +346,7 @@ span .icon-hide-show:hover {
 .li-service {
   display: inline-block;
   height: 56px;
-  width: 24.8%;
+  width: 20%;
   line-height: 70px;
   text-align: center;
   float: right;
