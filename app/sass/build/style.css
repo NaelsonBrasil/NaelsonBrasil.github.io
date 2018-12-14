@@ -131,7 +131,7 @@ span .icon-hide-show:hover {
   }
 
   .contact li {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
   /*Bug canto*/
@@ -145,6 +145,10 @@ span .icon-hide-show:hover {
 
   .li-service a {
     font-size: 10px !important;
+  }
+
+  .li-service i {
+    font-size: 16px !important;
   }
 
   .language-title {
@@ -180,7 +184,7 @@ span .icon-hide-show:hover {
   }
 
   .bg-top-fist {
-    margin-top: -60px;
+    width: 50%;
   }
 
   #menu > div > ul li:hover {
@@ -198,6 +202,18 @@ span .icon-hide-show:hover {
 
   #menu {
     display: inline !important;
+  }
+
+  .ul-menu {
+    display: none;
+  }
+
+  .badget > ul li a {
+    color: #181717 !important;
+  }
+
+  .badget > ul li i {
+    color: #181717 !important;
   }
 }
 #menu {
@@ -337,60 +353,36 @@ span .icon-hide-show:hover {
 }
 
 /*Option top Menus*/
-.ul-service {
-  padding: 0 0 0 0;
-  margin: 0 0 0 -10px;
-}
-
-.li-service {
-  display: inline-block;
-  height: 56px;
-  width: 20%;
-  line-height: 70px;
+.badget {
+  width: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin-right: 0;
   text-align: center;
-  float: right;
 }
 
-.li-service a {
+.badget > ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.badget > ul {
+  list-style: none;
+}
+
+.badget > ul li a {
   color: white;
   text-decoration: none;
-  font-size: 14px;
 }
 
-#or {
-  background-color: #73CE42;
-}
-
-#sup {
-  background-color: #73CE42;
-}
-
-#or:hover {
-  background-color: #73CE42;
-  opacity: 0.6;
-}
-
-#sup:hover {
-  background-color: #73CE42;
-  opacity: 0.6;
-}
-
-.icon-or {
-  margin-right: 5px;
+.badget > ul li i {
   font-size: 32px;
   color: white;
 }
 
-.icon-sup {
-  margin-right: 5px;
-  font-size: 32px;
-  color: white;
-}
-
-.icon-help {
-  margin-right: 5px;
-  font-size: 32px;
-  color: white;
+.icon-badget {
+  margin-right: 10px;
 }
 
 .ul-top-option {
@@ -509,12 +501,6 @@ span .icon-hide-show:hover {
 
 .lineage:hover > ul {
   display: block;
-  list-style: none;
-  z-index: 99;
-  margin: 0 0 0;
-  padding: 0 0 0;
-  position: relative;
-  background-color: #1514149d;
 }
 
 .lineage > ul > li:hover {
