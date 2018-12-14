@@ -63,7 +63,7 @@
                 <br>
                 <img src="image/logo.png" class="text-center img-fluid" style="margin: auto">
 
-                <span style=""><i class="fas icon-hide-show fa-angle-left" id="click"></i></span>
+                <span><i class="fas icon-hide-show fa-angle-left" id="click"></i></span>
 
                 <ul class="ul-menu">
                     <li class="li-menu"><a href="https://vipcriativo.com/">Home</a></li>
@@ -139,8 +139,8 @@
                     </ol>
 
                     <ul class="ul-service">
-                        <li class="li-service" id="sup"><i class="fas icon-sup fa-toolbox"></i><a href="#">Suporte</a></li>
-                        <li class="li-service" id="or"><i class="fas icon-or fa-hand-holding-usd"></i><a href="#">Orçamento</a></li>
+                        <!-- <li class="li-service" id="sup"><i class="fas icon-sup fa-toolbox"></i><a href="#">Suporte</a></li> -->
+                        <li class="li-service" id="or"><i class="fas icon-or fa-hand-holding-usd"></i><a href="#" id="budget">Orçamento</a></li>
                     </ul>
                 </div>
 
@@ -319,6 +319,11 @@
                 }
 
 
+            });
+
+
+            $('#budget').click(function () {
+                $('#main').load('budget.html article');
             });
 
             $('#service').click(function () {
