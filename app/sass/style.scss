@@ -15,7 +15,7 @@ $var-column-left: #73CE42;
 $var-menu-top: #353535;
 $btn1-top-fist: #73CE42;
 $btn2-top-fist:#73CE42;
-$service: #353535;
+$service: #726f6f;
 
 @mixin input-custom($radius,$color) {
   border-bottom-left-radius: $radius;
@@ -255,10 +255,9 @@ span .icon-hide-show:hover {
 
   #menu:hover div{
     text-align: center;
-    width: 24.8%;
-    height: 130px;
+    width: 100%;
     background-color: #1514149d;
-    position:absolute;
+    position:relative;
     z-index: 999;
   
   }
@@ -537,16 +536,15 @@ list-style: none;
 
 /* Content*/
 .carousel-selection {
-  height: 40px !important;
-  width: 40px !important;
-  background-color: #ededed !important;
-  border-radius: 40px !important;
-  border: solid 3px #636363 !important;
+  height: 32px !important;
+  width: 32px !important;
+  background-color: #427028 !important;
+  border-radius: 30px !important;
+  border: solid 10px #cccf19 !important;
 }
 
 .slider {
   width: 65% !important;
-
   margin: 20px auto;
   border: solid #eeeeee 3px;
   border-radius: 3px;
@@ -574,11 +572,13 @@ list-style: none;
   height: 360px;
   overflow: hidden;
   margin: 1px;
+
 }
 
 .bg-service{
   background-color: $service !important;
   border: 0;
+
 }
 .contact{
   margin: 10px 0 0;
@@ -591,5 +591,48 @@ list-style: none;
 .contact{
   float: left;
   color: white;
+
 }
 
+
+#menu:hover div{
+text-align: center;
+width: 100%;
+background-color: #1514149d;
+
+}
+
+.lineage > ul{
+  display: none;
+  list-style: none;
+  z-index: 99;
+  margin: 0 0 0;
+  padding: 0 0 0;
+  position:relative;
+  background-color: #1514149d;
+
+ }
+
+ .lineage:hover > ul{
+  display: block;
+  list-style: none;
+  z-index: 99;
+  margin: 0 0 0;
+  padding: 0 0 0;
+  position:relative;
+  background-color: #1514149d;
+
+ }
+
+.lineage > ul > li:hover{
+
+  border-right: 3px solid #F4F4F4;
+  border-left: 3px solid #F4F4F4;
+  background: #353535;
+
+}
+
+.lineage > ul li a {
+  color: white;
+
+}

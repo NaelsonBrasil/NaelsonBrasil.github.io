@@ -190,10 +190,9 @@ span .icon-hide-show:hover {
 
   #menu:hover div {
     text-align: center;
-    width: 24.8%;
-    height: 130px;
+    width: 100%;
     background-color: #1514149d;
-    position: absolute;
+    position: relative;
     z-index: 999;
   }
 
@@ -438,11 +437,11 @@ span .icon-hide-show:hover {
 
 /* Content*/
 .carousel-selection {
-  height: 40px !important;
-  width: 40px !important;
-  background-color: #ededed !important;
-  border-radius: 40px !important;
-  border: solid 3px #636363 !important;
+  height: 32px !important;
+  width: 32px !important;
+  background-color: #427028 !important;
+  border-radius: 30px !important;
+  border: solid 10px #cccf19 !important;
 }
 
 .slider {
@@ -476,7 +475,7 @@ span .icon-hide-show:hover {
 }
 
 .bg-service {
-  background-color: #353535 !important;
+  background-color: #726f6f !important;
   border: 0;
 }
 
@@ -489,6 +488,42 @@ span .icon-hide-show:hover {
 
 .contact {
   float: left;
+  color: white;
+}
+
+#menu:hover div {
+  text-align: center;
+  width: 100%;
+  background-color: #1514149d;
+}
+
+.lineage > ul {
+  display: none;
+  list-style: none;
+  z-index: 99;
+  margin: 0 0 0;
+  padding: 0 0 0;
+  position: relative;
+  background-color: #1514149d;
+}
+
+.lineage:hover > ul {
+  display: block;
+  list-style: none;
+  z-index: 99;
+  margin: 0 0 0;
+  padding: 0 0 0;
+  position: relative;
+  background-color: #1514149d;
+}
+
+.lineage > ul > li:hover {
+  border-right: 3px solid #F4F4F4;
+  border-left: 3px solid #F4F4F4;
+  background: #353535;
+}
+
+.lineage > ul li a {
   color: white;
 }
 
