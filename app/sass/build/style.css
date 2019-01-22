@@ -466,9 +466,14 @@ span .icon-hide-show:hover {
   margin: 1px;
 }
 
+.table-service > ol > .card-header {
+  font-size: 12px;
+}
+
 .bg-service {
-  background-color: #726f6f !important;
+  background-color: #f0f0f0 !important;
   border: 0;
+  font-size: 14px;
 }
 
 .contact {

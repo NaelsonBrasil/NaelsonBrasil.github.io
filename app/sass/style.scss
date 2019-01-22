@@ -15,7 +15,7 @@ $var-column-left: #73CE42;
 $var-menu-top: #353535;
 $btn1-top-fist: #73CE42;
 $btn2-top-fist:#73CE42;
-$service: #726f6f;
+$service: rgb(240, 240, 240);
 
 @mixin input-custom($radius,$color) {
   border-bottom-left-radius: $radius;
@@ -566,10 +566,13 @@ list-style: none;
   margin: 1px;
 
 }
-
+.table-service > ol > .card-header{
+  font-size: 12px;
+}
 .bg-service{
   background-color: $service !important;
   border: 0;
+  font-size: 14px;
 
 }
 .contact{
@@ -621,6 +624,8 @@ background-color: #1514149d;
   color: white;
 
 }
+
+
 
 .dashboard {
 
@@ -696,3 +701,4 @@ div > .panel:hover{
    font-size: 10px;
 
 }
+
