@@ -633,8 +633,8 @@ background-color: #1514149d;
 .panel{
   opacity: 0.8;
   background-color: black;
-}
 
+}
 
 .panel:hover{
   opacity: 0.9;
@@ -663,6 +663,15 @@ div > .panel:hover{
   width: 900px;
 }
 
+//Duplicate template
+.t-image{
+  margin-top: 5px;
+  border: solid rgb(255, 255, 255) 2px;
+  background: white;
+  height: 800px !important;
+  width: 800px !important;
+}
+
 .close{
   margin-top: 5px;
   background: white;
@@ -672,5 +681,18 @@ div > .panel:hover{
   line-height: 15px;
   margin-right: 5px;
   opacity: 0.9;
+
+}
+
+.tag{
+  width: 70%;
+  background: black;
+  height: 20px;
+  margin: auto;
+
+}
+
+.tag > span{
+   font-size: 10px;
 
 }
