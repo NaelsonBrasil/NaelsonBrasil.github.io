@@ -230,109 +230,31 @@ span .icon-hide-show:hover {
   list-style: none;
 }
 
-.language-title {
-  height: 40px;
-  width: 100%;
-  background-image: linear-gradient(to right, #73CE42, #73CE42);
-  margin-top: 60px;
-  line-height: 40px;
+.catalag-title {
+  background: #73CE42;
   color: white;
+  height: 35px;
+  line-height: 40px;
 }
 
-.language-dev {
-  background-color: #ffffff;
-  width: 90%;
-  height: 212px;
-  border: solid 1px #e3e3e3;
-  margin: 5px auto;
-  border-radius: 3px;
+.catalag {
+  width: 300px;
+  height: 150px;
 }
 
-.ul-menu-lan-icon-list {
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-}
-
-.ul-menu-lan-icon-list li {
-  display: inline-block;
-  padding: 20px;
-}
-
-.ul-menu-lan-icon-list li i {
-  font-size: 32px;
-  color: #4c4c4c;
-}
-
-.framework-title {
-  height: 40px;
+.catalag img {
   width: 100%;
-  background-image: linear-gradient(to right, #73CE42, #73CE42);
+}
+
+.fb-like {
   margin-top: 20px;
-  line-height: 40px;
-  color: white;
-}
-
-.framework-dev {
-  background-color: #ffffff;
-  width: 90%;
-  height: 212px;
-  border: solid 1px #e3e3e3;
-  margin: 5px auto;
-  border-radius: 3px;
-}
-
-.ul-menu-framework-icon-list {
-  padding: 0;
-  margin: 0;
-}
-
-.ul-menu-framework-icon-list li {
-  display: inline-block;
-  padding: 20px;
-}
-
-.ul-menu-framework-icon-list li i {
-  font-size: 32px;
-  color: #4c4c4c;
+  padding-bottom: 10px;
 }
 
 .icon-img {
   color: #4c4c4c;
   padding: 0;
   margin-top: -13px;
-}
-
-.midia-title {
-  height: 40px;
-  width: 100%;
-  background-image: linear-gradient(to right, #73CE42, #73CE42);
-  margin-top: 20px;
-  line-height: 40px;
-  color: white;
-}
-
-.midia-social {
-  background-color: #ffffff;
-  width: 90%;
-  height: 85px;
-  border: solid 1px #e3e3e3;
-  margin: 5px auto;
-  border-radius: 3px;
-}
-
-.ul-menu-midia-icon-list {
-  padding: 0;
-  margin: 0;
-}
-
-.ul-menu-midia-icon-list li {
-  display: inline-block;
-  padding: 20px;
-}
-
-.ul-menu-midia-icon-list li i {
-  font-size: 32px;
-  color: #4c4c4c;
 }
 
 #term a {
@@ -429,6 +351,10 @@ span .icon-hide-show:hover {
 
 /* Content*/
 .carousel-selection {
+  margin-top: 50px;
+}
+
+.carousel-selection {
   height: 22px !important;
   width: 22px !important;
   background-color: #5eee0b !important;
@@ -441,13 +367,6 @@ span .icon-hide-show:hover {
   margin: 20px auto;
   border: solid #eeeeee 3px;
   border-radius: 3px;
-}
-
-.all-right-reserved {
-  width: 90%;
-  position: absolute;
-  bottom: 0;
-  right: 2%;
 }
 
 .info {
