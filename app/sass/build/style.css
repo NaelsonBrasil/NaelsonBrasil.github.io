@@ -429,11 +429,11 @@ span .icon-hide-show:hover {
 
 /* Content*/
 .carousel-selection {
-  height: 32px !important;
-  width: 32px !important;
-  background-color: #427028 !important;
+  height: 22px !important;
+  width: 22px !important;
+  background-color: #5eee0b !important;
   border-radius: 30px !important;
-  border: solid 10px #cccf19 !important;
+  border: solid 7px #1d1d1c !important;
 }
 
 .slider {
