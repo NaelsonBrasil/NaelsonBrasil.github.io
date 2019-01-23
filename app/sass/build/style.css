@@ -238,12 +238,13 @@ span .icon-hide-show:hover {
 }
 
 .catalag {
-  width: 300px;
-  height: 150px;
+  height: 100%;
 }
 
 .catalag img {
+  height: 100%;
   width: 100%;
+  border: solid 3px rgba(255, 255, 255, 0.918);
 }
 
 .fb-like {
@@ -351,10 +352,6 @@ span .icon-hide-show:hover {
 
 /* Content*/
 .carousel-selection {
-  margin-top: 50px;
-}
-
-.carousel-selection {
   height: 22px !important;
   width: 22px !important;
   background-color: #5eee0b !important;
@@ -439,7 +436,7 @@ span .icon-hide-show:hover {
 
 .dashboard {
   background-color: white;
-  height: 1000px !important;
+  height: 789px !important;
   overflow: scroll;
 }
 
