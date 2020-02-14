@@ -1,0 +1,79 @@
+
+<base href="https://www.atualstudio.com/">
+<link rel="canonical" href="https://www.atualstudio.com">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="imagetoolbar" content="no">
+<title>Atualstudio - Criação de Sites, Sistemas e Aplicativos</title>
+<meta name="keywords" content="atualstudio, atualestudio, atual studio, desenvolvimento web, criação de site, criar site, construir site, desenvolvimento, web, site, website, aplicações, apps, sistemas, mobile, smartphone, celular, design, otimização, qualidade, bahia, guanambi, gbi, melhor, bom, benefício, sucesso, soluções, barato, web development, website create, build site, create site, development, applications, systems, cellphone, optimization, quality, best, good, benefit, success, solutions, cheap, free">
+<meta name="description" content="A Atualstudio é uma empresa especializada em criação de sites, sistemas web, desenvolvimento mobile e design, localizada em Guanambi - Bahia. Criamos e otimizamos sites, sistemas, aplicações, lojas virtuais, portais, aplicativos, logotipos, entre outros.">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-55222908-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-55222908-1');
+</script>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="js/manifest.json?2020">
+<meta name="application-name" content="Atualstudio">
+
+<link rel="shortcut icon" href="imgs/icons/favicon.ico?2020">
+<link rel="icon" sizes="192x192" href="imgs/icons/192x192.png?2020">
+<link rel="icon" sizes="128x128" href="imgs/icons/128x128.png?2020">
+<link rel="apple-touch-icon" sizes="57x57" href="imgs/icons/57x57.png?2020">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="imgs/icons/57x57.png?2020">
+<link rel="apple-touch-icon" sizes="72x72" href="imgs/icons/72x72.png?2020">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="imgs/icons/72x72.png?2020">
+<link rel="apple-touch-icon" sizes="114x114" href="imgs/icons/114x114.png?2020">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="imgs/icons/114x114.png?2020">
+<link rel="apple-touch-icon" sizes="128x128" href="imgs/icons/128x128.png?2020">
+<link rel="apple-touch-icon-precomposed" sizes="128x128" href="imgs/icons/128x128.png?2020">
+
+<meta name="author" content="Atualstudio">
+<meta name="reply-to" content="contato@atualstudio.com">
+<meta name="city" content="Guanambi">
+<meta name="state" content="BA">
+<meta name="country" content="Brasil">
+<meta name="language" content="English">
+<meta name="copyright" content="Atualstudio">
+<meta name="publisher" content="Atualstudio">
+<meta name="distribution" content="Global">
+
+<link rel="image_src" href="https://www.atualstudio.com/imgs/image_src.jpg?2020">
+
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+
+<meta name="google" content="notranslate">
+<meta name="google-site-verification" content="L7Q8mjerpu2lLh7PdL1wI7YgIW9smWAFfhluPWw9uvc">
+
+<link href="https://plus.google.com/+AtualstudioWeb" rel="publisher">
+
+<meta property="fb:app_id" content="577018195656213">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en">
+<meta property="og:url" content="https://www.atualstudio.com">
+<meta property="og:title" content="Atualstudio - Criação de Sites, Sistemas e Aplicativos">
+<meta property="og:description" content="A Atualstudio é uma empresa especializada em criação de sites, sistemas web, desenvolvimento mobile e design, localizada em Guanambi - Bahia. Criamos e otimizamos sites, sistemas, aplicações, lojas virtuais, portais, aplicativos, logotipos, entre outros.">
+<meta property="og:site_name" content="Atualstudio - Criação de Sites, Sistemas e Aplicativos">
+<meta property="og:image" content="https://www.atualstudio.com/imgs/image_src.jpg?2020">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Atualstudio">
+<meta name="twitter:title" content="Atualstudio - Criação de Sites, Sistemas e Aplicativos">
+<meta name="twitter:description" content="A Atualstudio é uma empresa especializada em criação de sites, sistemas web, desenvolvimento mobile e design, localizada em Guanambi - Bahia. Criamos e otimizamos sites, sistemas, aplicações, lojas virtuais, portais, aplicativos, logotipos, entre outros.">
+<meta name="twitter:image:src" content="https://www.atualstudio.com/imgs/image_src.jpg?2020">
+
+<meta name="alexaVerifyID" content="BNcgHuqar7uIAqJmKzUJMiujO60">
+
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/layout.css?2020.4" media="all">
+<link rel="stylesheet" type="text/css" href="css/mobile.css?2020.3" media="all">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
